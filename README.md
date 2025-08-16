@@ -43,7 +43,6 @@ python-practice-room/
 3. 🔄 Funcionalidades avançadas
 
 ## 🛠️ Tecnologias Utilizadas
-
 - **Streamlit** - Interface web
 - **Plotly** - Gráficos interativos
 - **Pandas** - Manipulação de dados
