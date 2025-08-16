@@ -1,0 +1,28 @@
+id,sigla,nome,regiao,data_coleta
+11,RO,Rondônia,Norte,2025-08-16 00-:15:17
+12,AC,Acre,Norte,2025-08-16 00-:15:17
+13,AM,Amazonas,Norte,2025-08-16 00-:15:17
+14,RR,Roraima,Norte,2025-08-16 00-:15:17
+15,PA,Pará,Norte,2025-08-16 00-:15:17
+16,AP,Amapá,Norte,2025-08-16 00-:15:17
+17,TO,Tocantins,Norte,2025-08-16 00-:15:17
+21,MA,Maranhão,Nordeste,2025-08-16 00-:15:17
+22,PI,Piauí,Nordeste,2025-08-16 00-:15:17
+23,CE,Ceará,Nordeste,2025-08-16 00-:15:17
+24,RN,Rio Grande do Norte,Nordeste,2025-08-16 00-:15:17
+25,PB,Paraíba,Nordeste,2025-08-16 00-:15:17
+26,PE,Pernambuco,Nordeste,2025-08-16 00-:15:17
+27,AL,Alagoas,Nordeste,2025-08-16 00-:15:17
+28,SE,Sergipe,Nordeste,2025-08-16 00-:15:17
+29,BA,Bahia,Nordeste,2025-08-16 00-:15:17
+31,MG,Minas Gerais,Sudeste,2025-08-16 00-:15:17
+32,ES,Espírito Santo,Sudeste,2025-08-16 00-:15:17
+33,RJ,Rio de Janeiro,Sudeste,2025-08-16 00-:15:17
+35,SP,São Paulo,Sudeste,2025-08-16 00-:15:17
+41,PR,Paraná,Sul,2025-08-16 00-:15:17
+42,SC,Santa Catarina,Sul,2025-08-16 00-:15:17
+43,RS,Rio Grande do Sul,Sul,2025-08-16 00-:15:17
+50,MS,Mato Grosso do Sul,Centro-Oeste,2025-08-16 00-:15:17
+51,MT,Mato Grosso,Centro-Oeste,2025-08-16 00-:15:17
+52,GO,Goiás,Centro-Oeste,2025-08-16 00-:15:17
+53,DF,Distrito Federal,Centro-Oeste,2025-08-16 00-:15:17

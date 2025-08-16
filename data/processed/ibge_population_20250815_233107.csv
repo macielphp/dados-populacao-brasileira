@@ -1,0 +1,28 @@
+id,sigla,nome,regiao,data_coleta
+11,RO,Rondônia,Norte,2025-08-15 23:31:07
+12,AC,Acre,Norte,2025-08-15 23:31:07
+13,AM,Amazonas,Norte,2025-08-15 23:31:07
+14,RR,Roraima,Norte,2025-08-15 23:31:07
+15,PA,Pará,Norte,2025-08-15 23:31:07
+16,AP,Amapá,Norte,2025-08-15 23:31:07
+17,TO,Tocantins,Norte,2025-08-15 23:31:07
+21,MA,Maranhão,Nordeste,2025-08-15 23:31:07
+22,PI,Piauí,Nordeste,2025-08-15 23:31:07
+23,CE,Ceará,Nordeste,2025-08-15 23:31:07
+24,RN,Rio Grande do Norte,Nordeste,2025-08-15 23:31:07
+25,PB,Paraíba,Nordeste,2025-08-15 23:31:07
+26,PE,Pernambuco,Nordeste,2025-08-15 23:31:07
+27,AL,Alagoas,Nordeste,2025-08-15 23:31:07
+28,SE,Sergipe,Nordeste,2025-08-15 23:31:07
+29,BA,Bahia,Nordeste,2025-08-15 23:31:07
+31,MG,Minas Gerais,Sudeste,2025-08-15 23:31:07
+32,ES,Espírito Santo,Sudeste,2025-08-15 23:31:07
+33,RJ,Rio de Janeiro,Sudeste,2025-08-15 23:31:07
+35,SP,São Paulo,Sudeste,2025-08-15 23:31:07
+41,PR,Paraná,Sul,2025-08-15 23:31:07
+42,SC,Santa Catarina,Sul,2025-08-15 23:31:07
+43,RS,Rio Grande do Sul,Sul,2025-08-15 23:31:07
+50,MS,Mato Grosso do Sul,Centro-Oeste,2025-08-15 23:31:07
+51,MT,Mato Grosso,Centro-Oeste,2025-08-15 23:31:07
+52,GO,Goiás,Centro-Oeste,2025-08-15 23:31:07
+53,DF,Distrito Federal,Centro-Oeste,2025-08-15 23:31:07
