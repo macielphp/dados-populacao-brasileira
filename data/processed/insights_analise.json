@@ -1,0 +1,83 @@
+{
+  "data_analise": "2025-08-18 16:59:26",
+  "total_estados": 27,
+  "total_regioes": 5,
+  "populacao_total": 213941272,
+  "estado_mais_populoso": "São Paulo",
+  "estado_menos_populoso": "Roraima",
+  "regiao_mais_estados": "Nordeste",
+  "regiao_menos_estados": "Sul",
+  "distribuicao_regional": {
+    "Nordeste": 9,
+    "Norte": 7,
+    "Sudeste": 4,
+    "Centro-Oeste": 4,
+    "Sul": 3
+  },
+  "top_5_estados": [
+    {
+      "nome": "São Paulo",
+      "populacao": 46649132,
+      "regiao": "Sudeste"
+    },
+    {
+      "nome": "Minas Gerais",
+      "populacao": 21411923,
+      "regiao": "Sudeste"
+    },
+    {
+      "nome": "Rio de Janeiro",
+      "populacao": 17463349,
+      "regiao": "Sudeste"
+    },
+    {
+      "nome": "Bahia",
+      "populacao": 14985284,
+      "regiao": "Nordeste"
+    },
+    {
+      "nome": "Paraná",
+      "populacao": 11797436,
+      "regiao": "Sul"
+    }
+  ],
+  "estados_por_regiao": {
+    "Centro-Oeste": [
+      "Mato Grosso do Sul",
+      "Mato Grosso",
+      "Goiás",
+      "Distrito Federal"
+    ],
+    "Nordeste": [
+      "Maranhão",
+      "Piauí",
+      "Ceará",
+      "Rio Grande do Norte",
+      "Paraíba",
+      "Pernambuco",
+      "Alagoas",
+      "Sergipe",
+      "Bahia"
+    ],
+    "Norte": [
+      "Rondônia",
+      "Acre",
+      "Amazonas",
+      "Roraima",
+      "Pará",
+      "Amapá",
+      "Tocantins"
+    ],
+    "Sudeste": [
+      "Minas Gerais",
+      "Espírito Santo",
+      "Rio de Janeiro",
+      "São Paulo"
+    ],
+    "Sul": [
+      "Paraná",
+      "Santa Catarina",
+      "Rio Grande do Sul"
+    ]
+  }
+}
