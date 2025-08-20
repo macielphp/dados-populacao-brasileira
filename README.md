@@ -10,8 +10,6 @@ python-practice-room/
 │   └── external/              # Dados de fontes externas
 ├── 📁 src/                    # Código fonte
 │   ├── data/                  # Scripts de coleta e processamento
-│   ├── visualization/         # Scripts de visualização
-│   ├── models/               # Modelos de ML/IA
 │   └── dashboard/            # Aplicação do dashboard
 ├── 📁 notebooks/              # Jupyter notebooks para análise
 ├── 📁 config/                 # Configurações e parâmetros
