@@ -21,6 +21,14 @@ except ImportError as e:
     API_AVAILABLE = False
     st.warning(f"⚠️ Sistema de APIs não disponível: {e}")
 
+# Importar análises estatísticas da Fase 6
+try:
+    from src.analytics.statistical_analysis import PopulationAnalyzer
+    ANALYTICS_AVAILABLE = True
+except ImportError as e:
+    ANALYTICS_AVAILABLE = False
+    st.warning(f"⚠️ Módulo de análises não disponível: {e}")
+
 
 # Configuração da página
 st.set_page_config(
@@ -359,6 +367,66 @@ if df is not None:
         with col2:
             st.info(f"**Região com mais estados:** {insights['regiao_mais_estados']}")
             st.info(f"**Total de estados:** {insights['total_estados']}")
+    
+    # Seção de Análises Estatísticas Avançadas (Fase 6)
+    if ANALYTICS_AVAILABLE:
+        st.markdown("---")
+        st.header("📊 Análises Estatísticas Avançadas")
+        
+        # Botão para executar análises
+        if st.button("🔬 Executar Análises Estatísticas"):
+            with st.spinner("Executando análises estatísticas..."):
+                try:
+                    # Criar analisador
+                    analyzer = PopulationAnalyzer(df)
+                    
+                    # Executar análises
+                    basic_stats = analyzer.basic_statistics()
+                    regional_analysis = analyzer.regional_analysis()
+                    correlation_analysis = analyzer.correlation_analysis()
+                    outlier_analysis = analyzer.outlier_detection()
+                    
+                    # Exibir resultados
+                    col1, col2 = st.columns(2)
+                    
+                    with col1:
+                        st.subheader("📈 Estatísticas Básicas")
+                        st.metric("População Total", f"{basic_stats['total_population']:,}")
+                        st.metric("Média", f"{basic_stats['mean_population']:,.0f}")
+                        st.metric("Mediana", f"{basic_stats['median_population']:,.0f}")
+                        st.metric("Desvio Padrão", f"{basic_stats['std_population']:,.0f}")
+                    
+                    with col2:
+                        st.subheader("🔍 Análise Regional")
+                        st.metric("Diferenças Significativas", 
+                                "✅ Sim" if regional_analysis['significant_differences'] else "❌ Não")
+                        st.metric("P-valor ANOVA", f"{regional_analysis['anova_p_value']:.4f}")
+                        st.metric("Correlação Pop-Ano", f"{correlation_analysis['population_year_correlation']:.3f}")
+                        st.metric("Outliers Detectados", outlier_analysis['total_outliers_iqr'])
+                    
+                    # Gráficos avançados
+                    st.subheader("📊 Visualizações Avançadas")
+                    fig = analyzer.plot_analysis()
+                    st.pyplot(fig)
+                    
+                    # Relatório detalhado
+                    with st.expander("📋 Relatório Detalhado"):
+                        st.write("### Estatísticas por Ano")
+                        st.dataframe(regional_analysis['yearly_stats'])
+                        
+                        st.write("### Matriz de Correlação")
+                        st.dataframe(correlation_analysis['correlation_matrix'])
+                        
+                        if outlier_analysis['total_outliers_iqr'] > 0:
+                            st.write("### Outliers Detectados")
+                            st.dataframe(outlier_analysis['iqr_outliers'][['nome', 'populacao', 'ano']])
+                    
+                    st.success("✅ Análises estatísticas concluídas!")
+                    
+                except Exception as e:
+                    st.error(f"❌ Erro ao executar análises: {e}")
+    else:
+        st.warning("⚠️ Módulo de análises estatísticas não disponível")
 
 else:
     st.error("❌ Não foi possível carregar os dados. Verifique se os arquivos existem.")

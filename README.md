@@ -47,10 +47,10 @@ python-practice-room/
 4. 🔄 Fazer fallback automático
 
 ### **Fase 6: Análises Estatísticas Avançadas**
-1. 🔄 Distribuição e variância
-2. 🔄 Cálculos estatísticos avançados
-3. 🔄 Testes de hipóteses
-4. 🔄 Modelos preditivos
+1. ✅ Distribuição e variância
+2. ✅ Cálculos estatísticos avançados
+3. ✅ Testes de hipóteses
+4. ✅ Modelos preditivos
 
 ## 📊 Status do Projeto
 
@@ -61,7 +61,7 @@ python-practice-room/
 | **Fase 3** | ✅ **Concluída** | Análise exploratória (EDA) |
 | **Fase 4** | ✅ **Concluída** | Dashboard interativo |
 | **Fase 5** | 🔄 **Em Desenvolvimento** | APIs e dados reais |
-| **Fase 6** | 🔄 **Planejada** | Análises estatísticas avançadas |
+| **Fase 6** | ✅ **Concluída** | Análises estatísticas avançadas |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -72,7 +72,7 @@ python-practice-room/
 - **Matplotlib/Seaborn** - Visualizações estáticas
 - **Jupyter** - Análise exploratória de dados
 
-### **🔄 Em Desenvolvimento:**
+### **✅ Implementadas:**
 - **APIs do IBGE** - Dados reais de população
 - **Sistema de Cache** - Otimização de performance
 - **Scikit-learn** - Análises estatísticas avançadas
@@ -94,6 +94,11 @@ python-practice-room/
 - ✅ Análise exploratória (EDA)
 - ✅ Visualizações interativas
 - ✅ Dados históricos por estado
+- ✅ Análises estatísticas avançadas
+- ✅ Testes de hipóteses (ANOVA, Shapiro-Wilk)
+- ✅ Detecção de outliers (IQR, Z-score)
+- ✅ Modelos preditivos (Regressão Linear, Random Forest)
+- ✅ Análise de correlações
 
 ### **🔧 Arquitetura:**
 - ✅ Estrutura modular de pastas
@@ -111,10 +116,10 @@ python-practice-room/
 4. **Fallback automático** - Garantir disponibilidade
 
 ### **Fase 6 - Análises Estatísticas:**
-1. **Distribuição e variância** - Análises descritivas avançadas
-2. **Testes de hipóteses** - Comparações estatísticas
-3. **Modelos preditivos** - Machine Learning básico
-4. **Correlações e regressões** - Relacionamentos entre variáveis
+1. ✅ **Distribuição e variância** - Análises descritivas avançadas
+2. ✅ **Testes de hipóteses** - Comparações estatísticas
+3. ✅ **Modelos preditivos** - Machine Learning básico
+4. ✅ **Correlações e regressões** - Relacionamentos entre variáveis
 
 ## 🎓 O que Você Aprendeu
 
