@@ -1,0 +1,245 @@
+[
+  {
+    "nome": "Rondônia",
+    "sigla": "RO",
+    "id": 11,
+    "populacao": 1873400,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Acre",
+    "sigla": "AC",
+    "id": 12,
+    "populacao": 944610,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Amazonas",
+    "sigla": "AM",
+    "id": 13,
+    "populacao": 4356147,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Roraima",
+    "sigla": "RR",
+    "id": 14,
+    "populacao": 640871,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Pará",
+    "sigla": "PA",
+    "id": 15,
+    "populacao": 9042265,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Amapá",
+    "sigla": "AP",
+    "id": 16,
+    "populacao": 905751,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Tocantins",
+    "sigla": "TO",
+    "id": 17,
+    "populacao": 1659776,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Maranhão",
+    "sigla": "MA",
+    "id": 21,
+    "populacao": 7318861,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Piauí",
+    "sigla": "PI",
+    "id": 22,
+    "populacao": 3353542,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Ceará",
+    "sigla": "CE",
+    "id": 23,
+    "populacao": 9407213,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Rio Grande do Norte",
+    "sigla": "RN",
+    "id": 24,
+    "populacao": 3619353,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Paraíba",
+    "sigla": "PB",
+    "id": 25,
+    "populacao": 4126377,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Pernambuco",
+    "sigla": "PE",
+    "id": 26,
+    "populacao": 9854821,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Alagoas",
+    "sigla": "AL",
+    "id": 27,
+    "populacao": 3408287,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Sergipe",
+    "sigla": "SE",
+    "id": 28,
+    "populacao": 2399326,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Bahia",
+    "sigla": "BA",
+    "id": 29,
+    "populacao": 15316084,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Minas Gerais",
+    "sigla": "MG",
+    "id": 31,
+    "populacao": 21776621,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Espírito Santo",
+    "sigla": "ES",
+    "id": 32,
+    "populacao": 4159325,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "sigla": "RJ",
+    "id": 33,
+    "populacao": 17754799,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "São Paulo",
+    "sigla": "SP",
+    "id": 35,
+    "populacao": 47729129,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Paraná",
+    "sigla": "PR",
+    "id": 41,
+    "populacao": 11919436,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Santa Catarina",
+    "sigla": "SC",
+    "id": 42,
+    "populacao": 7475318,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Rio Grande do Sul",
+    "sigla": "RS",
+    "id": 43,
+    "populacao": 11605979,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Mato Grosso do Sul",
+    "sigla": "MS",
+    "id": 50,
+    "populacao": 2904776,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Mato Grosso",
+    "sigla": "MT",
+    "id": 51,
+    "populacao": 3693236,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Goiás",
+    "sigla": "GO",
+    "id": 52,
+    "populacao": 7322519,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  },
+  {
+    "nome": "Distrito Federal",
+    "sigla": "DF",
+    "id": 53,
+    "populacao": 3222759,
+    "ano": 2025,
+    "fonte": "IBGE Localidades + Dados Estáticos",
+    "data_coleta": "2025-08-20 21:31:59"
+  }
+]
